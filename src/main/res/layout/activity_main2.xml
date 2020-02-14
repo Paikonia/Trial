@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:id="@+id/setuplayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="20dp"
+        android:id="@+id/firsttext"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstname"
+        android:hint="First name"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:layout_below="@id/firsttext"
+        />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstname"
+        android:hint="Last name"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_below="@id/lastname"
+        android:textSize="20dp"
+        android:id="@+id/email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/Phone"
+        android:layout_below="@id/email"
+        android:hint="Phone number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="School"
+        android:textSize="20dp"
+        android:layout_below="@id/Phone"
+        android:id="@+id/school"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of birth"
+        android:inputType="date"
+        android:id="@+id/date"
+        android:layout_below="@id/school"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class"
+        android:inputType="text"
+        android:id="@+id/cass"
+        android:layout_below="@id/date"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_below="@+id/cass"
+        android:entries="@array/gender"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:id="@+id/signup"
+        android:layout_below="@id/gender"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tast"
+        android:layout_below="@+id/signup"
+        android:textSize="30dp"
+        android:hint="File dir"
+        />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

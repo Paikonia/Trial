@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">presentable</string>
+    <string name="first1">Login details</string>
+    <string name="First2">Wrong email or email not found in the database. Check email or create account.</string>
+    <string name="email">Email</string>
+    <string name="first3">Incorrect password</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="first4">Don\'t have an account? Signup!</string>
+    <string name="signup">Signup</string>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Custom</item>
+    </string-array>
+</resources>
